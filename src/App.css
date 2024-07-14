@@ -1,0 +1,20 @@
+/* define css para toda a plicação , famoso reset, border box evita que os inputs saiam dos limites da largura dos elementos pais*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    text-shadow: #000 1px 1px;
+}
+
+/*estilizando o container app que é o pai, display flex para alinhar forms no centro, min hight 100 vh vai dar altura para centraliza-lo, cover para preencher toda a tela */
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("assets/bg.webp");
+    background-size: cover;
+    background-position: center;
+}
